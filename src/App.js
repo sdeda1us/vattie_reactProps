@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
+import MoodInput from './MoodInput/MoodInput'
+
 
 class App extends Component{
     render(){
       return (
       <div className="App">
         <h1>Mood Ring</h1>
+        <MoodInput />
       </div>
-    );
+      )
   } //end render
 } //end class
 
